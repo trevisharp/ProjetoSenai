@@ -25,3 +25,5 @@ create table Post(
 	Momento datetime not null
 );
 go
+
+select * from Usuario

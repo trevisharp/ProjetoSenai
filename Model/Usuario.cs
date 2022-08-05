@@ -11,8 +11,8 @@ namespace ProjetoSenai.Model
         }
 
         public int Id { get; set; }
-        public string Nome { get; set; } = null!;
-        public string Senha { get; set; } = null!;
+        public string Nome { get; set; }
+        public string Senha { get; set; }
 
         public virtual ICollection<Post> Posts { get; set; }
     }
